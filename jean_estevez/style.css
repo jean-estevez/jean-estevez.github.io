@@ -1,0 +1,53 @@
+html {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+h1.col-sm-6 {
+    letter-spacing: 7px;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+}
+
+li {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: DarkGrey;
+    padding: 10px 20px;
+}
+
+#top {
+    padding: 20px 0;
+}
+
+.jumbotron {
+    background-image: url("https://static1.squarespace.com/static/549a42a1e4b009fc6000f407/t/563e2863e4b0c6d5108781b8/1446914151814/Meta+Workshops.jpg?format=2500w");
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    display: flex;
+}
+
+section.jumbotron .container {
+    margin: 0 auto;
+}
+
+.jumbotron h2 {
+    font-size: 12rem;
+    letter-spacing: 10px;
+    font-weight: 200;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
