@@ -1,0 +1,214 @@
+html {
+    font-size: 14px;
+    font-family: 'Opens Sans', sans-serif;
+}
+
+nav {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    color: #399bd1;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a:hover {
+    color: #399bd1;
+    background-color: transparent;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.jumbotron-bike {
+    background-image: url("../images/jumbotron-bike.jpg");
+    background-size: cover;
+}
+
+.jumbotron-beer {
+    background-image: url("../images/jumbotron-beer.jpg");
+    background-size: cover;
+}
+
+.jumbotron-flowers {
+    background-image: url("../images/jumbotron-flowers.jpg");
+    background-size: cover;
+}
+
+.jumbotron-duffel {
+    background-image: url("../images/jumbotron-duffel.jpg");
+    background-size: cover;
+}
+
+.jumbotron .container {
+    margin-top: 9rem;
+    color: white;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    height: 44rem;
+}
+
+.jumbotron h1 {
+    font-family: 'Monoton', cursive;
+    font-size: 7.1rem;
+}
+
+.jumbotron p {
+    max-width: 51.3rem;
+    margin: 0 auto;
+}
+
+.relative-wrapper {
+    position: relative;
+    top: -14rem;
+    text-align: center;
+}
+
+.btn {
+    width: 11.4rem;
+    padding: 1.3rem 0;
+    border-radius: 7px;
+    background-color: #399bd1;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+    transition: box-shadow .5s;
+    font-size: 1.25rem;
+    color: white;
+}
+
+.btn:hover {
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+    color: white;
+}
+
+.btn:active {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .btn {
+    text-shadow: none;
+    margin-top: 2.8rem;
+}
+
+h2 {
+    color: #399bd1;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.feature .image-container {
+    padding-left: 0;
+    width: 100%;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.feature img {
+    width: 100%;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.feature p, .projects p {
+    margin-top: 12px;
+}
+
+.prod-cat {
+    color: #399bd1;
+}
+
+ul.prod-list {
+    line-height: 1.4rem;
+    color: rgba(0, 0, 0, 0.7);
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sub-project {
+    padding-left: 0;
+}
+
+.image-container img {
+    opacity: 0.7;
+    transition: opacity 1.5s, transform 1.5s;
+}
+
+.image-container img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.projects .image-container {
+    width: 100%;
+    height: 13rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.projects .image-container img {
+    width: 100%;
+}
+
+.projects {
+    padding-bottom: 5.85rem;
+}
+
+footer {
+    background-color: #f3f3f3;
+}
+
+.ideas {
+    padding: 5.2rem 0;
+    text-align: center;
+}
+
+.ideas h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.4rem;
+}
+
+.ideas p {
+    width: 42rem;
+    margin: 0 auto;
+    padding-bottom: 2.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .jumbotron .container {
+        margin-top: 11rem;
+    }
+    .jumbotron h1 {
+        font-size: 4rem;
+        width: 20rem;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .jumbotron p {
+        width: 25rem;
+    }
+    .ideas p {
+        width: 25rem;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .relative-wrapper {
+        top: -10rem;
+    }
+    .btn {
+        width: 9em;
+        padding: 1rem 0;
+    }
+
+}
